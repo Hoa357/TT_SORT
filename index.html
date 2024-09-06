@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thuật Toán Sắp Xếp</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <script type="text/javascript" src="tt.js" ></script>
+    <header>
+        <h1>Thuật Toán Sắp Xếp</h1>
+    </header>
+    <section>
+        <h2>Nhập Mảng Số</h2>
+        <input type="text" id="arrayInput" placeholder="Nhập các số cách nhau bằng dấu phẩy">
+        <div  class="button-container">
+            <button onclick="sortArray('bubble')">Bubble Sort</button>
+        <button onclick="sortArray('selection')">Selection Sort</button>
+        <button onclick="sortArray('insertion')">Insertion Sort</button>
+        <button onclick="clearInput()">Delete</button>
+        </div>
+       
+        <h3>Kết quả:</h3>
+        <p id="result"></p>
+    </section>
+
+   
+</body>
+</html>
